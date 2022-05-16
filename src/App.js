@@ -2,49 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Register from './components/Register';
+import Profile from './components/Profile';
+import Student from './components/Student';
 
 function App() {
   return (
-    <div className="container">
-      <div className="row">
+    <>
+    
+    <Student/>
+    </>
 
-          <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-              <div className="row g-2">
-                  <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                      <label for="" className="form-label">Name</label>
-                      <input placeholder="enter name" type="text" className="form-control"/>
-                  </div>
-                  <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6"/>
-                    <label for="" className="form-label">Roll Number</label>
-                    <input placeholder="enter roll number" type="text" className="form-control"/>
-                  </div>
-                  <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" className="form-label">Address</label>
-                    <input placeholder="enter address" type="text" className="form-control"/>
-                  </div>
-                  <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" className="form-label">Mobile Number</label>
-                    <input placeholder="enter mobile number" type="text" className="form-control"/>
-                  </div>
-                  <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <label for="" className="form-label">College</label>
-                    <input placeholder="enter college name" type="text" className="form-control"/>
-                  </div>
-                  <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" className="form-label">Username</label>
-                    <input placeholder="enter Username" type="text" className="form-control"/>
-                  </div>
-                  <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                    <label for="" className="form-label">Password</label>
-                    <input placeholder="enter password" type="password" className="form-control"/>
-                  </div>
-                  <div className="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                      <button className="btn btn-success">Register</button></div>
-                  
-              </div>
-          </div>
-      
-  </div>
+    
 
   );
 }
